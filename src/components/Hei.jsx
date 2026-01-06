@@ -1,6 +1,7 @@
+const name = "Henrik";
+
 function Hei() {
-  return <h1>Hei verden!</h1>
+
+  return <h1>Hei bruh {name}</h1>
 }
-
-
 export default Hei;
