@@ -1,8 +1,12 @@
-import Hei from "./components/Hei"
-function App() {
-  const [count, setCount] = useState(0)
+import { useState } from "react";
+import Plasser from "./components/Plasser";
 
-  return 
+function App() {
+  const [count, setCount] = useState(0);
+
+  return (
+    <Plasser message="hei" name="Robert"/>
+  );
 }
 
-export default App
+export default App;

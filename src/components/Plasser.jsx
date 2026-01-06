@@ -1,0 +1,10 @@
+function Plasser({name,message}){
+    
+    return (
+        <div>
+            <h1>{message} {name}</h1>
+        </div>
+    );
+}
+
+export default Plasser;
